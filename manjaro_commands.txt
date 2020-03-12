@@ -1,0 +1,9 @@
+rfkill - Disable wireless devices
+ip addr show - Show network details
+nmtui - text user interface for editing networks
+ifstat - show interface names and packet statistics
+startx - Start the X11 window server (usually don't need this)
+grep -r -s file.file /DIR - search for file.file in /DIR (-r for recursion; -s for suppressing errors/warnings)
+screen /dev/ttyUSB0 115200,cs8
+sudo dmesg | egrep --color 'serial|tty'
+inxi -N
