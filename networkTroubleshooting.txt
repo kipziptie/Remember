@@ -1,0 +1,6 @@
+inxi -N | list network devices 
+ip link | list IP address statuses per interface
+lspci -v | list PCI devices & show drivers available/loaded
+systemctl list-unit-files --state=enabled | list enabled services, the networking one will be in here
+systemctl status NetworkManager.service | lists status of NetworkManager. Just because it
+systemctl restart  NetworkManager.service | restart NetworkManager. this has fixed me before

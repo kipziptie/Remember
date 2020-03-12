@@ -1,0 +1,7 @@
+MC - Midnight commander; a TUI with attitude
+Wireshark - packet listening + unwrapping
+Burpsuite - useful for easy GUI base64 decode
+Snort - IDS/IPS suite for more sanitary internet connections
+**TODO - Ask James which windows manager automagically renders images 
+
+
